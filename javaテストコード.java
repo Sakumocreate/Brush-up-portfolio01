@@ -10,8 +10,8 @@ class main{
     
     int kounyukingaku = 500; //ここに購入金額を挿入
     
-    Double zeiritu =1.08; //ここで税率を記載
-    Double daikin = kounyukingaku * zeiritu　//代金×税率
+    int zeiritu =1.08; //ここで税率を記載
+    int daikin = kounyukingaku * zeiritu　//代金×税率
     
 System.out.println ("あなたの購入金額は"+daikin+"円です");
 
